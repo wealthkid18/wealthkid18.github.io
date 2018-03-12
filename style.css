@@ -1,0 +1,102 @@
+Selector	{
+	Property: Value;
+}
+
+*{
+	margin:0;
+	padding:0;
+}
+
+body{
+	margin:0;
+	font-family: Arial;
+	font-size: 17px;
+	color:#ffffff;
+	line-height: 1.6;
+}
+
+#showcase{
+	background-image:url('notebook.jpg');
+	background-size: cover;
+	background-position: center;
+	height:100vh;
+	border-top:solid;
+	border-left:solid;
+	border-right:solid;
+	border-color:#ffffff;
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items:center;
+	text-align:center;
+	padding:0 20px;
+}
+
+#showcase h1{
+	font-size:50px;
+	line-height:1.2;
+}
+
+#showcase h5{
+	font-size:20px;
+}
+
+#showcase p{
+	font-size:15px;
+}
+
+#button .btn-primary{
+	font-size:18px;
+	text-decoration:none;
+	background-color:rgba(255,255,255,0.1);
+	color:rgba(255,204,51,0.8);
+	border:rgba(255,204,51,0.8) 1px solid;
+	padding:5px 20px;
+	border-radius:30px;
+	margin-top:30px;
+}
+
+#button .btn-primary:hover{
+	background:rgba(255,204,51,0.8);
+	color:#ffffff;
+	transition:all 2s;
+}
+
+#section-a{
+	padding:20px;
+	background:rgba(255,204,51,0.8);
+	border-style:solid;
+	text-align:center;
+}
+
+#section-b{
+	padding:20px;
+	background:#ffffff;
+	border-style:solid;
+	border-color:#ffffff;
+	color:rgba(255,204,51,0.8);
+	text-align:center;
+}
+
+#section-c{
+	display:flex;
+	color:rgba(255,204,51,0.8);
+}
+
+#section-c div{
+	padding:20px;
+}
+
+#section-c .box-1, #section-c .box-3{
+	background:rgba(255,204,51,0.8);
+	border-style:solid;
+	border-color:#ffffff;
+	color:#ffffff;
+}
+
+#section-c .box-2{
+	background:#ffffff;
+	border-style:solid;
+	border-color:#ffffff;
+	color:rgba(255,204,51,0.8);
+}
